@@ -65,7 +65,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Oikky&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6">
+  <img src="[https://github-profile-trophy.vercel.app/?username=Oikky&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6](https://avatars.githubusercontent.com/u/86940081?s=400&u=0326f0e24d2c287b7d27abc8aac95b6de739d80a&v=4)">
 </p>
 
 ---
