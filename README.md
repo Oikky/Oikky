@@ -24,7 +24,7 @@ O que ele resolve:
 - **Cancelamento pelo cliente com taxa escalonada** — 0% dentro da carência de 2 dias, subindo linear até o teto de 80% na véspera, porque a essa altura o ingrediente já foi comprado
 - **Bot de triagem** no site e painel "Meus Pedidos" com polling e sessão que sobrevive a F5
 
-**O bug de que mais me orgulho** é de comparação de telefone. O WhatsApp entrega o número ora com o nono dígito, ora sem — comparar exato errava **em silêncio**. Comparar só os 8 últimos dígitos consertava isso e abria um buraco pior: `38 98888-7777` virava igual a `11 98888-7777`, e um cliente conseguia ver — e cancelar — o pedido de outro. A correção exige o DDD quando os dois lados têm, cai nos 8 dígitos só quando o dado legado está sem ele, e **loga toda vez que usa o fallback**, pra dar pra medir o legado em vez de adivinhar.
+**O bug de que mais me orgulho** é de comparação de telefone. O WhatsApp entrega o número ora com o nono dígito, ora sem — comparar exato errava **em silêncio**. Comparar só os 8 últimos dígitos consertava isso e abria um buraco pior: `38 98888-7777` virava igual a `11 98888-7777`, e um cliente conseguia ver e cancelar o pedido de outro. A correção exige o DDD quando os dois lados têm, cai nos 8 dígitos só quando o dado legado está sem ele, e **loga toda vez que usa o fallback**, pra dar pra medir o legado em vez de adivinhar.
 
 ### A IA de atendimento no WhatsApp — em produção desde 2026-08-03
 
