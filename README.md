@@ -26,7 +26,7 @@ O que ele resolve:
 
 **O bug de que mais me orgulho** é de comparação de telefone. O WhatsApp entrega o número ora com o nono dígito, ora sem — comparar exato errava **em silêncio**. Comparar só os 8 últimos dígitos consertava isso e abria um buraco pior: `38 98888-7777` virava igual a `11 98888-7777`, e um cliente conseguia ver e cancelar o pedido de outro. A correção exige o DDD quando os dois lados têm, cai nos 8 dígitos só quando o dado legado está sem ele, e **loga toda vez que usa o fallback**, pra dar pra medir o legado em vez de adivinhar.
 
-### A IA de atendimento no WhatsApp — em produção desde 2026-08-03
+### A IA de atendimento no WhatsApp — em produção desde 03-08-2026
 
 Serviço Node **sem nenhuma dependência externa**, rodando em máquina local e exposto por Tailscale Funnel, com **LLM local via Ollama e tool calling**.
 
