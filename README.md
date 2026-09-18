@@ -14,7 +14,7 @@ Não trabalho dentro de time grande: eu levanto o requisito com quem vai usar, e
 
 Sistema de pedidos de um buffet de festas, **no ar e operando de verdade**. Sou sócio do negócio e dono do código, o que significa que quando o sistema erra o prejuízo é meu.
 
-O backend é **um único Cloudflare Worker de 8.496 linhas** costurando Coda (banco), InfinitePay (cobrança), Telegram (aprovação da cozinha), Google Calendar e quatro APIs de CEP em cascata. Sem framework, sem bundler, sem etapa de build — HTML/CSS/JS na mão e `git push`. **181 commits**, 13.088 linhas de front versionadas mais as 8.496 do Worker, que fica fora do repositório porque carrega credencial.
+O backend é **um único Cloudflare Worker de 8.496 linhas** costurando Coda (banco), InfinitePay (cobrança), Telegram (aprovação da cozinha), Google Calendar e quatro APIs de CEP em cascata. Sem framework, sem bundler, sem etapa de build, HTML/CSS/JS na mão e `git push`. **181 commits**, 13.088 linhas de front versionadas mais as 8.496 do Worker, que fica fora do repositório porque carrega credencial.
 
 O que ele resolve:
 
